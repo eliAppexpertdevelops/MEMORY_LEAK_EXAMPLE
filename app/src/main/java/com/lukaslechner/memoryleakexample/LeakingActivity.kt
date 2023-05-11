@@ -5,7 +5,7 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 
 class LeakingActivity : AppCompatActivity() {
-
+  //leaking listener
     private val listener = Listener()
 
     override fun onCreate(savedInstanceState: Bundle?) {
